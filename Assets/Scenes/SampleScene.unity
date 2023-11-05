@@ -422,7 +422,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 150
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 12.41067
@@ -513,15 +513,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 573162978}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18c0c9438f2ed634ea14eab1d2760eab, type: 3}
+  m_Script: {fileID: 11500000, guid: 2f4d18337c1bc664daf47761dc85cc60, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   CurrentSpeed: 0
+  CurrentGamemode: 0
   GroundCheckTransform: {fileID: 292580414}
   GroundCheckRadius: 0
   GroundMask:
     serializedVersion: 2
     m_Bits: 1
+  Sprite: {fileID: 573162982}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
